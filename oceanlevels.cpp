@@ -12,11 +12,12 @@ int main()
         year_3 = 10;
 
     //this is the process of implementing data
+    //this is the equations needed to calculate millimeters per year
     float MILLS_AFTER_5 = MIll_PER_YEAR * year_1,
           MILLS_AFTER_7 = MIll_PER_YEAR * year_2,
           MILLS_AFTER_10 = MIll_PER_YEAR * year_3;
 
-    //this is the output
+    //this is the output of the program
     cout <<"In " << year_1<<" years, the ocean's level will grow "<<MILLS_AFTER_5<<" millimeters tall."<<endl
     cout <<"In "<<year_2<<" years, the ocean's level will grow "<<MILLS_AFTER_7<<" millimeters tall."<<endl
     cout <<"In "<<year_3<<" years, the ocean's level will grow "<<MILLS_AFTER_10<<" millimeters tall."<<endl;
