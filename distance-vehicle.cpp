@@ -11,10 +11,11 @@ int main()
             avg_mil_highway = 28.9;
 
     //this is how the data gets implemented
+    //this is the equations for the amount of miles calculated 
     float distance_town = avg_mil_town * avg_gal,
             distance_highway = avg_mil_highway * avg_gal;
 
-    //this is the output
+    //this is the output of the program
     cout<<"The distance a car can travel with one tank of gas is "<<distance_town<<" miles in town."<<endl;
     cout<<"The distance a car can travel with one tank of gas is "<<distance_highway<<" miles on the highway."<<endl;
 
